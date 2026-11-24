@@ -1,0 +1,13 @@
+.conference-footer {
+  background: linear-gradient(90deg, #17365d, #245b91);
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  font-family: "Times New Roman", serif;
+  margin-top: 25px;
+}
+
+.conference-footer p {
+  margin: 0;
+  font-size: 14px;
+}

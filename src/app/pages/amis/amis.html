@@ -1,0 +1,24 @@
+<section class="amis-card" id="amis">
+  <div class="amis-icon">👥</div>
+
+  <div class="amis-content">
+    <h2>Liste des amis</h2>
+
+    <div class="d-flex gap-2 mb-3">
+      <input class="form-control"
+             [(ngModel)]="nom">
+
+      <input class="form-control"
+             [value]="nom">
+
+      <input class="form-control"
+             [value]="nom">
+    </div>
+
+    <ul>
+      @for (ami of amis; track ami) {
+        <li>{{ ami }}</li>
+      }
+    </ul>
+  </div>
+</section>

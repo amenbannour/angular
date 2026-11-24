@@ -1,0 +1,29 @@
+.conference-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 10px;
+  background-color: white;
+  font-family: "Times New Roman", serif;
+}
+
+.menu-link {
+  color: #17365d;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.menu-link:hover {
+  background-color: #e9f2ff;
+}
+
+.menu-link.active {
+  background-color: #2563eb;
+  color: white;
+}
+

@@ -1,0 +1,18 @@
+.conference-header {
+  background: linear-gradient(90deg, #1c4777, #3276b9);
+  color: white;
+  text-align: center;
+  padding: 10px 20px 14px;
+  font-family: "Times New Roman", serif;
+}
+
+.conference-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 4px;
+}
+
+.conference-header p {
+  font-size: 14px;
+  margin: 0;
+}

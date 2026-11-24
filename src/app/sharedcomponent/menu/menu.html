@@ -1,0 +1,45 @@
+<nav class="conference-menu">
+
+  <a href="#accueil"
+     class="menu-link"
+     [class.active]="activePage === 'accueil'"
+     (click)="selectPage('accueil')">
+    Accueil
+  </a>
+
+  <a href="#profil"
+     class="menu-link"
+     [class.active]="activePage === 'profil'"
+     (click)="selectPage('profil')">
+    Profil
+  </a>
+
+  <a href="#conferences"
+     class="menu-link"
+     [class.active]="activePage === 'conferences'"
+     (click)="selectPage('conferences')">
+    Conférences
+  </a>
+
+  <a href="#amis"
+     class="menu-link"
+     [class.active]="activePage === 'amis'"
+     (click)="selectPage('amis')">
+    Amis
+  </a>
+
+  <a href="#notifications"
+     class="menu-link"
+     [class.active]="activePage === 'notifications'"
+     (click)="selectPage('notifications')">
+    Notifications
+  </a>
+
+  <a href="#admin"
+     class="menu-link"
+     [class.active]="activePage === 'admin'"
+     (click)="selectPage('admin')">
+    Admin
+  </a>
+
+</nav>

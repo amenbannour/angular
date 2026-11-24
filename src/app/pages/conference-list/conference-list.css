@@ -1,0 +1,46 @@
+
+.conference-section {
+  background: white;
+  padding: 30px;
+  margin: 30px auto;
+  border-left: 4px solid #14966b;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Times New Roman", serif;
+}
+
+.conference-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.conference-section > p {
+  color: #777;
+}
+
+.conference-section input {
+  max-width: 430px;
+  padding: 12px;
+}
+
+.conference-card {
+  height: 100%;
+  padding: 22px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+}
+
+.conference-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 55px;
+}
+
+.conference-card p {
+  margin-bottom: 20px;
+}
+
+.conference-card button {
+  font-weight: bold;
+}
